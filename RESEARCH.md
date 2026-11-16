@@ -2,6 +2,14 @@
 
 Updated: 2026-11-17
 
+## 2026-11-17 — Starter-kit selection and format
+
+- OpenAI's official [Skills guide](https://openai.com/academy/skills/) describes skills as repeatable workflows with a clear job, inputs, outputs, and guardrails. It recommends small building blocks and splitting unrelated work instead of making one oversized skill.
+- OpenAI's [API skills documentation](https://developers.openai.com/api/docs/guides/tools-skills) says skills use a `SKILL.md` manifest with front matter and instructions and are compatible with the open Agent Skills standard. Product-specific installation still varies, so this repo does not claim automatic installation across every assistant.
+- Based on those design principles, the first starter kit covers distinct common jobs: triaging messages, preparing/following up meetings, comparing choices, planning a week, drafting replies, shopping research, truthful job applications, safe troubleshooting, learning, and trip planning. This selection is a usefulness hypothesis, not a measured ranking or proof of demand.
+- Every workflow is designed to produce a reviewable draft or plan. It must not imply that it sent, booked, purchased, applied, edited, or otherwise changed anything unless a user explicitly authorizes a connected tool action.
+- **Decision:** Publish the starter kit as practical drafts, clearly label demand as unvalidated, and gather user feedback before claiming any individual skill is proven or adding features for popularity alone.
+
 ## 2026-11-17 — First evidence check
 
 - A [Reddit post in r/Students](https://www.reddit.com/r/Students/comments/1r5f5go/found_tool_that_explains_confusing_letters_bank/) describes a newly built tool for explaining confusing letters, listing deadlines, and surfacing next steps. One commenter mentions confusion with research-approval documents. The author is promoting their own tool, so this is a useful problem signal but not independent product validation.
