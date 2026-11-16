@@ -48,4 +48,4 @@ Research and candidate ideas: [RESEARCH.md](RESEARCH.md).
 
 These skills guide an AI assistant; they do not make it infallible. Check important dates and claims against the original source. Do not give a skill passwords, one-time codes, private keys, payment details, or private information it does not need.
 
-This repository is a local draft and is **not published yet**. A public release needs a compatible GitHub publishing connection and an explicit license choice.
+This collection is publicly hosted on GitHub. The first skill remains a research draft; it has not been validated as a broadly needed skill. No license is included yet, so reuse terms are not defined.
