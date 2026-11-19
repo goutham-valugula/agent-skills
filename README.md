@@ -1,6 +1,6 @@
-# Everyday AI Skills
+# Agent Skills
 
-**Small, practical instructions that help AI assistants do everyday jobs clearly.**
+**Practical, plain-language workflows that help AI assistants do useful jobs clearly and safely.**
 
 An AI skill is like a job card for an assistant: it explains when to use a task, what steps to follow, and what a useful result should look like. This collection is being built for people who do not want to learn technical jargon before they can use it.
 
@@ -54,10 +54,12 @@ Research and candidate ideas: [RESEARCH.md](RESEARCH.md).
 
 ## Change log
 
+- **2026-11-18:** Renamed the collection from “Everyday AI Skills” to **Agent Skills** and clarified that the GitHub rename/publication is still pending.
+
 - **2026-11-17:** Started the collection with a plain-language document checklist, then added a starter kit for inbox triage, meetings, decisions, weekly planning, replies, shopping research, job applications, troubleshooting, learning, and trip planning. These are original workflow drafts; broad user demand has not been validated. Research notes explain the format and quality choices.
 
 ## Important
 
 These skills guide an AI assistant; they do not make it infallible. Check important dates and claims against the original source. Do not give a skill passwords, one-time codes, private keys, payment details, or private information it does not need.
 
-This collection is publicly hosted on GitHub. The skills are practical drafts; their popularity and broad demand have not been validated. No license is included yet, so reuse terms are not defined.
+This is a local working copy of the Agent Skills repository. GitHub publication and repository rename are still pending. The skills are practical drafts; their popularity and broad demand have not been validated. No license is included yet, so reuse terms are not defined.
