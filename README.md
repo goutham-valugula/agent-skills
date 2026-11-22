@@ -1,65 +1,79 @@
-# Agent Skills
+# Agent Skills for Useful AI Workflows
 
-**Practical, plain-language workflows that help AI assistants do useful jobs clearly and safely.**
+<p align="center">
+  <img src="assets/agent-skills-banner.svg" alt="Agent Skills: focused, practical workflows for AI assistants" width="100%">
+</p>
 
-An AI skill is like a job card for an assistant: it explains when to use a task, what steps to follow, and what a useful result should look like. This collection is being built for people who do not want to learn technical jargon before they can use it.
+<p align="center">
+  <strong>Focused instructions that help AI agents do useful work—and show how they did it.</strong><br>
+  Practical <code>SKILL.md</code> workflows for building, writing, planning, learning, and everyday decisions.
+</p>
 
-## What a skill should give you
+<p align="center">
+  <a href="https://github.com/goutham-valugula/agent-skills/stargazers"><img alt="GitHub stars" src="https://img.shields.io/github/stars/goutham-valugula/agent-skills?style=for-the-badge&color=ffb84d"></a>
+  <a href="https://github.com/goutham-valugula/agent-skills/network/members"><img alt="GitHub forks" src="https://img.shields.io/github/forks/goutham-valugula/agent-skills?style=for-the-badge&color=7b61ff"></a>
+  <img alt="Agent Skills format" src="https://img.shields.io/badge/format-SKILL.md-16a085?style=for-the-badge">
+</p>
 
-- **A clear purpose:** what it helps with and when to use it.
-- **A simple start:** an example of what you can ask your assistant.
-- **A predictable result:** what the assistant will give back.
-- **Honest limits:** what it cannot confirm or decide for you.
-- **Privacy and safety:** what information it needs, and what it should not send or change.
+## What are Agent Skills?
 
-## Starter kit
+An **Agent Skill** is a reusable workflow that tells an AI assistant when a task fits, what steps matter, and what a useful result should include. These are more than one-line prompt recipes: each skill is meant to guide an AI agent toward a clear, reviewable outcome, with practical checks and honest limits.
 
-These skills work from information you provide. They prepare clear drafts and plans; they do not silently send messages, change calendars, make purchases, or apply for jobs.
+This public collection includes AI assistant skills for interface design and review, communication, planning, learning, research, troubleshooting, and more. The files use the open `SKILL.md` format; they work in products that support Agent Skills, but installation and tool access vary by assistant.
 
-### Turn a document into next steps — research draft
+## Featured workflow: design to ship
 
-Give the assistant a letter, notice, policy, or instructions. It will explain the main point in everyday language, list actions and dates that are explicitly present, define unfamiliar terms, and mark anything the document does not make clear. It will point back to the relevant page or heading when possible.
+**[Design to ship reviewer](skills/design-to-ship-reviewer/SKILL.md)** helps a coding-capable agent turn a product brief into a coherent interface, work with the project's existing components, inspect the result in a browser, and report visible quality issues. It emphasizes real screenshots, responsive behavior, accessibility basics, and evidence—not vague instructions to “make it beautiful.”
 
-It does **not** decide legal rights, diagnose a condition, or give financial advice. For an important decision, use the document's official contact or a qualified professional.
+> Try it: “Review this app against the brief, improve the most important screen using the existing design system, check it at desktop and mobile sizes, and show me what you verified.”
 
-## Use it
+## Browse the AI skills collection
 
-Ask your AI assistant something like:
+| Area | Skill | What it helps with | Status |
+|---|---|---|---|
+| **Build & review** | [Design to ship reviewer](skills/design-to-ship-reviewer/SKILL.md) | Shape, implement, and review an interface with browser evidence | New workflow; evaluation pending |
+| Documents | [Document to next steps](skills/document-to-next-steps/SKILL.md) | Understand a letter or notice and list its stated actions | Research draft |
+| Communication | [Inbox to action list](skills/inbox-to-action-list/SKILL.md) | Turn supplied messages into actions, dates, and draft replies | Starter workflow |
+| Communication | [Meeting prep and follow-up](skills/meeting-prep-follow-up/SKILL.md) | Prepare an agenda and capture decisions, owners, and next steps | Starter workflow |
+| Communication | [Write a clear reply](skills/write-a-clear-reply/SKILL.md) | Draft a natural reply based on the facts provided | Starter workflow |
+| Decisions | [Compare my options](skills/compare-my-options/SKILL.md) | Compare choices against your priorities and recommend a next step | Starter workflow |
+| Research | [Buy with confidence](skills/buy-with-confidence/SKILL.md) | Compare current products, prices, and trade-offs before purchase | Starter workflow |
+| Planning | [Plan my week](skills/plan-my-week/SKILL.md) | Turn commitments and available time into a realistic weekly plan | Starter workflow |
+| Travel | [Plan a trip](skills/plan-a-trip/SKILL.md) | Build a sourced itinerary without booking anything | Starter workflow |
+| Career | [Apply with accuracy](skills/apply-with-accuracy/SKILL.md) | Tailor an application to a role without inventing experience | Starter workflow |
+| Learning | [Learn something new](skills/learn-something-new/SKILL.md) | Get a clear lesson, example, and practice matched to your level | Starter workflow |
+| Troubleshooting | [Troubleshoot step by step](skills/troubleshoot-step-by-step/SKILL.md) | Diagnose a problem safely, one meaningful change at a time | Starter workflow |
 
-> “Read this letter and tell me, in plain English, what it says I need to do. List any dates it gives, explain unfamiliar words, and tell me what is unclear. Do not guess.”
+## Use a skill
 
-Then provide the document using the file-upload method supported by your AI assistant. Installation steps vary by assistant; we will add only steps that have been checked on the named product.
+1. Open the skill folder that matches your task and review its `SKILL.md`.
+2. Give the file to an AI assistant that supports Agent Skills, or follow that product's current installation instructions.
+3. Ask for the example task shown in the skill, then provide only the context it needs.
+4. Review important claims, sources, and proposed actions before relying on the result.
 
-## Skills in this collection
+Platform support differs: a skill can describe a workflow, but it cannot give an assistant tools or permissions that the platform does not provide. The repository does not claim that every skill works identically in every AI product.
 
-| Skill | In everyday words | Status |
-|---|---|---|
-| [Document to next steps](skills/document-to-next-steps/SKILL.md) | Understand a document and see what it asks you to do | Research draft |
-| [Inbox to action list](skills/inbox-to-action-list/SKILL.md) | Turn pasted messages into a short list of actions, dates, and replies to prepare | Starter skill; demand not yet validated |
-| [Meeting prep and follow-up](skills/meeting-prep-follow-up/SKILL.md) | Prepare for a meeting, then turn notes into decisions and assigned next steps | Starter skill; demand not yet validated |
-| [Compare my options](skills/compare-my-options/SKILL.md) | Compare choices against what matters to you and get a reasoned recommendation | Starter skill; demand not yet validated |
-| [Plan my week](skills/plan-my-week/SKILL.md) | Turn your commitments and available time into a realistic weekly plan | Starter skill; demand not yet validated |
-| [Write a clear reply](skills/write-a-clear-reply/SKILL.md) | Draft a natural, useful reply from your facts without sending it | Starter skill; demand not yet validated |
-| [Buy with confidence](skills/buy-with-confidence/SKILL.md) | Compare current products, prices, and trade-offs before you spend | Starter skill; demand not yet validated |
-| [Apply with accuracy](skills/apply-with-accuracy/SKILL.md) | Tailor your real experience to a job opening without inventing qualifications | Starter skill; demand not yet validated |
-| [Troubleshoot step by step](skills/troubleshoot-step-by-step/SKILL.md) | Find likely causes safely, changing one important thing at a time | Starter skill; demand not yet validated |
-| [Learn something new](skills/learn-something-new/SKILL.md) | Get a simple lesson, practice questions, and feedback matched to your level | Starter skill; demand not yet validated |
-| [Plan a trip](skills/plan-a-trip/SKILL.md) | Turn your dates, budget, and preferences into a sourced trip plan | Starter skill; demand not yet validated |
+## How we build these AI workflows
 
-## How this collection is made
+- Start with a specific user job, not a trend or a broad “do everything” prompt.
+- Prefer practical methods, checkable outputs, and visible proof of what was reviewed.
+- Keep skills focused and portable; use product-specific steps only when they are verified.
+- Treat repositories, forum posts, and star counts as discovery signals—not proof that a skill works.
+- Mark drafts honestly and improve them from realistic use, evidence, and feedback.
+- Do not copy another creator's prompts, assets, or code without checking permission and attribution.
 
-We look for real problems in public discussions and current product documentation. Related problems may be combined only when they share the same user job and workflow; unrelated jobs stay as separate skills. Every skill should have a clear example, honest limits, and safety checks. The starter kit is an initial set of practical workflows—not proof that demand has been validated. We will not copy another creator's skill or code without checking its license and attribution requirements.
+See [research, evidence, and candidate workflows](RESEARCH.md) for how priorities are chosen and what still needs evaluation.
 
-Research and candidate ideas: [RESEARCH.md](RESEARCH.md).
+## Help improve the collection
 
-## Change log
+Try a workflow on a real task and tell us what was useful, confusing, or missing. If an Agent Skill saves you time, **star the repository or share it** so others can find it. Please include the task context and expected result when suggesting an improvement; specific feedback is easier to act on than “make it better.”
 
-- **2026-11-18:** Renamed the collection from “Everyday AI Skills” to **Agent Skills** and clarified that the GitHub rename/publication is still pending.
+## Trust, privacy, and license
 
-- **2026-11-17:** Started the collection with a plain-language document checklist, then added a starter kit for inbox triage, meetings, decisions, weekly planning, replies, shopping research, job applications, troubleshooting, learning, and trip planning. These are original workflow drafts; broad user demand has not been validated. Research notes explain the format and quality choices.
+Skills guide an AI assistant; they do not make it infallible. Check important dates, measurements, and claims against their sources. Never provide passwords, one-time codes, private keys, payment details, or unrelated private information to a skill.
 
-## Important
+The skills are workflows and drafts, not professional certification or a guarantee of results. Review each file's boundaries before use. **No reuse license is currently included**, so do not assume that public visibility grants permission to redistribute or repackage the contents.
 
-These skills guide an AI assistant; they do not make it infallible. Check important dates and claims against the original source. Do not give a skill passwords, one-time codes, private keys, payment details, or private information it does not need.
+---
 
-This is a local working copy of the Agent Skills repository. GitHub publication and repository rename are still pending. The skills are practical drafts; their popularity and broad demand have not been validated. No license is included yet, so reuse terms are not defined.
+<p align="center"><sub>Built for clearer, more useful AI-agent workflows. Focused skills, practical checks, honest limits.</sub></p>
