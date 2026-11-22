@@ -23,15 +23,26 @@ This public collection includes AI assistant skills for interface design and rev
 
 ## Featured workflow: design to ship
 
-**[Design to ship reviewer](skills/design-to-ship-reviewer/SKILL.md)** helps a coding-capable agent turn a product brief into a coherent interface, work with the project's existing components, inspect the result in a browser, and report visible quality issues. It emphasizes real screenshots, responsive behavior, accessibility basics, and evidence—not vague instructions to “make it beautiful.”
+**[Design to ship reviewer](skills/design-development/design-to-ship-reviewer/SKILL.md)** helps a coding-capable agent turn a product brief into a coherent interface, work with the project's existing components, inspect the result in a browser, and report visible quality issues. It emphasizes real screenshots, responsive behavior, accessibility basics, and evidence—not vague instructions to “make it beautiful.”
 
 > Try it: “Review this app against the brief, improve the most important screen using the existing design system, check it at desktop and mobile sizes, and show me what you verified.”
+
+## Browse by domain
+
+Start with a work area, then choose just one skill:
+
+- **[Accounting & Finance](skills/accounting-finance/README.md):** review exported bank and bookkeeping records for matches and exceptions.
+- **[Design & Development](skills/design-development/README.md):** review and improve an interface with browser evidence.
+- **Communication, planning, learning, and daily work:** choose from the individual skills below.
+
+Each skill is a standalone folder with its own `SKILL.md`. You can take just one skill; you do not need to use or install the whole collection. New industry folders will be added when there is a distinct, useful workflow for that domain—not just to fill a category.
 
 ## Browse the AI skills collection
 
 | Area | Skill | What it helps with | Status |
 |---|---|---|---|
-| **Build & review** | [Design to ship reviewer](skills/design-to-ship-reviewer/SKILL.md) | Shape, implement, and review an interface with browser evidence | New workflow; evaluation pending |
+| **Accounting & Finance** | [Bank reconciliation reviewer](skills/accounting-finance/bank-reconciliation-reviewer/SKILL.md) | Compare bank and ledger exports; flag uncertain matches for human review | New workflow; evaluation pending |
+| **Build & review** | [Design to ship reviewer](skills/design-development/design-to-ship-reviewer/SKILL.md) | Shape, implement, and review an interface with browser evidence | New workflow; evaluation pending |
 | Documents | [Document to next steps](skills/document-to-next-steps/SKILL.md) | Understand a letter or notice and list its stated actions | Research draft |
 | Communication | [Inbox to action list](skills/inbox-to-action-list/SKILL.md) | Turn supplied messages into actions, dates, and draft replies | Starter workflow |
 | Communication | [Meeting prep and follow-up](skills/meeting-prep-follow-up/SKILL.md) | Prepare an agenda and capture decisions, owners, and next steps | Starter workflow |
